@@ -130,3 +130,10 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 546px) {
+  .main_cont {
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+  }
+}
