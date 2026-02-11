@@ -100,7 +100,7 @@ body {
   color: red;
 }
 
-@media (max-width: 657px) {
+@media (max-width: 800px) {
   .test_box {
     width: 100%;
     flex-wrap: wrap;
@@ -129,11 +129,22 @@ body {
     font-size: 10px;
     width: 100%;
   }
+  .main_cont {
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+  }
+  body {
+    padding: 10px;
+  }
 }
 @media (max-width: 546px) {
   .main_cont {
     flex-wrap: wrap;
     height: 100vh;
     width: 100%;
+  }
+  body {
+    padding: 10px;
   }
 }
